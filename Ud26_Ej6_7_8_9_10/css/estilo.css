@@ -1,0 +1,54 @@
+span.titulo1{
+    color:darkgreen;
+}
+span.titulo2{
+    color:peru;
+}
+h1{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 10px;
+}
+h2 {
+    border-bottom:forestgreen 1px solid;
+    color:forestgreen;
+}
+
+h3 {
+    color:peru;
+}
+
+body{
+    border:rgb(207, 206, 206) 10px solid;
+    max-width: 900px;
+    
+}
+
+div.caja{
+    border: forestgreen 1px solid;
+    margin: 10px 10px 10px 150px;
+    padding: 10px;
+}
+#menu{
+    float: left;
+    width: 100px;
+    list-style-type: none;
+}
+
+#menu li{
+    border:rgb(115, 231, 115) 0.5px solid;
+    background-color: rgb(115, 231, 115);
+    margin-bottom: 4px;
+}
+
+#menu a{
+    display: block;
+    text-decoration: none;
+    width: 100px;
+    line-height: 50px;
+    text-align: center;
+}
+
+#menu a:hover {
+    background-color: yellow;
+  }
